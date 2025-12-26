@@ -8,8 +8,8 @@
 This paper investigates the "simulation-reality gap" in contemporary humanoid robots powered by Large Language Models (LLMs). We argue that while behavioral mimicry is reaching unprecedented levels of fidelity, a fundamental distinction persists between sophisticated simulation and authentic philosophical autonomy. This work evaluates the ethical implications of this convergence, specifically focusing on human accountability and AI welfare.
 
 ## Contents
-- **[Full Research Paper (PDF)](Autonomy_in_AI_Leung_Naslund.pdf)**: The complete 15-page paper including the "History of Robotics" appendix and full citations.
-- **[Community Discussion (LessWrong)](Your_LessWrong_URL_Here)**: Peer-review and community dialogue on the paper's implications for AI Safety.
+- **[Full Research Paper (PDF)](https://github.com/alanspace/Autonomy-in-AI-Research/blob/main/AI_Society_Autonomy_of_AI.pdf)**: The complete 15-page paper including the "History of Robotics" appendix and full citations.
+- **[Community Discussion (LessWrong)](LessWrong_URL)**: Peer-review and community dialogue on the paper's implications for AI Safety.
 - **Source Files**: LaTeX source code for the manuscript.
 
 ## Key Research Themes
@@ -27,3 +27,6 @@ A historical context of the field, from Asimov’s Three Laws and the 1955 Dartm
   year={2025},
   institution={KTH Royal Institute of Technology}
 }
+
+## Technical Note
+This paper was typeset in LaTeX. The modular source code (using a main.tex and separate chapter files) can be found in the /src directory
