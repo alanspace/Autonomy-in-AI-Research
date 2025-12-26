@@ -20,6 +20,7 @@ This paper investigates the "simulation-reality gap" in contemporary humanoid ro
 A historical context of the field, from Asimov’s Three Laws and the 1955 Dartmouth Proposal to the current era of Deep Learning and humanoid embodiment, is included in the final section of the paper.
 
 ## How to Cite
+```bibtex
 @article{LeungNaslund2025,
   title={Autonomy in AI: Exploring Subjectivity in Humanoid AI},
   author={Leung, Shek Lun and N{\"a}slund, Alexander},
