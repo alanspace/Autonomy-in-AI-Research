@@ -9,7 +9,6 @@ This paper investigates the "simulation-reality gap" in contemporary humanoid ro
 
 ## Contents
 - **[Full Research Paper (PDF)](https://github.com/alanspace/Autonomy-in-AI-Research/blob/main/AI_Society_Autonomy_of_AI.pdf)**: The complete 15-page paper including the "History of Robotics" appendix and full citations.
-- **[Community Discussion (LessWrong)](LessWrong_URL)**: Peer-review and community dialogue on the paper's implications for AI Safety.
 - **Source Files**: LaTeX source code for the manuscript.
 
 ## Key Research Themes
