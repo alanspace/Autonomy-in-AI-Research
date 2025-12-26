@@ -1,0 +1,111 @@
+\documentclass[10pt]{article} % Reduced from 11pt to 10pt for more text
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage[a4paper, total={6in, 9in}]{geometry} % Increased text area (narrower margins)
+\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[natbibapa]{apacite}
+\bibliographystyle{apacite}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{tocloft}
+
+% Customize hyperref for clean links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black,
+    pdfborder={0 0 0}
+}
+
+% Customize section headings (tighter spacing)
+\titleformat{\section}[block]{\large\bfseries\centering}{\thesection.}{1em}{}
+\titleformat{\subsection}[block]{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\section}{0pt}{1ex plus 0.5ex minus .1ex}{0.5ex plus .1ex} % Reduced spacing
+\titlespacing*{\subsection}{0pt}{0.5ex plus .3ex minus .1ex}{0.3ex plus .1ex} % Reduced spacing
+
+% Customize table of contents (compact)
+\renewcommand{\cfttoctitlefont}{\large\bfseries\centering}
+\renewcommand{\cftsecfont}{\normalsize}
+\renewcommand{\cftsubsecfont}{\normalsize}
+\renewcommand{\cftsecpagefont}{\normalsize}
+\renewcommand{\cftsubsecpagefont}{\normalsize}
+\setlength{\cftbeforetoctitleskip}{0.5ex} % Reduced space before TOC title
+\setlength{\cftaftertoctitleskip}{1ex} % Reduced space after TOC title
+\setlength{\cftsecindent}{0em}
+\setlength{\cftsubsecindent}{2em}
+\setlength{\cftbeforesecskip}{0.2ex} % Reduced space between TOC entries
+\setlength{\cftbeforesubsecskip}{0.1ex}
+
+% Set paragraph spacing (tighter)
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3\baselineskip} % Reduced from 0.5 to 0.3
+
+
+% TITLE:
+\title{Autonomy in AI - (Can Machines Be Conscious? Exploring Autonomy and Subjectivity in Humanoid AI.)}
+\newcommand{\email}[1]{\href{mailto:#1}{\texttt{#1}}}
+
+
+
+\author{
+Alexander Näslund \\ 
+\email{anaslu@kth.se}
+\and
+Shek Lun Leung \\ \email{slleung@kth.se}
+}
+
+    
+% DATE:
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+% 
+% ABSTRACT
+\setstretch{.8}
+\maketitle
+% %%%%%%%%%%%%%%%%%%
+
+
+% CONTENT OF ABS HERE--------------------------------------
+%Sammanfattning
+
+% END CONTENT ABS------------------------------------------
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BODY OF THE DOCUMENT
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+This paper investigates the profound question of whether artificial systems, particularly humanoid robots enhanced by large language models (LLMs), can genuinely exhibit consciousness, subjective experience, or philosophical autonomy. Drawing on an interdisciplinary analysis of philosophical arguments, technical capabilities, and ethical considerations, this work interrogates the applicability of these human-centric concepts to non-biological intelligence. We argue that while contemporary AI demonstrates an impressive capacity for simulating complex human-like behaviors, a critical distinction persists between this sophisticated mimicry and the authentic, self-derived emergence of these phenomena. The paper explores this simulation-reality gap, examines the limitations of current AI in achieving genuine consciousness or true autonomy, and discusses the significant societal and ethical implications that arise from the convincing appearance of these qualities, ultimately advocating for a stance of reasoned caution and clear human accountability in the development and deployment of advanced AI.
+\end{abstract}
+
+% Table of Contents
+\singlespacing % Single spacing for TOC to save space
+\tableofcontents
+\newpage % Start body on a new page
+\doublespacing % Double spacing for the body
+%\justifying % Justified text for the body
+
+% --------------------
+\input{1_Introduction}
+\input{2_Background}
+\input{3_Body}
+\input{4_Discussion}
+\input{5_Conclusion}
+\input{6_Appendix}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCES SECTION
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{references}
+
+\end{document}
