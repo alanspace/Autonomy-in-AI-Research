@@ -27,6 +27,10 @@ A historical context of the field, from Asimov’s Three Laws and the 1955 Dartm
   year={2025},
   institution={KTH Royal Institute of Technology}
 }
+```
 
-## Technical Note
+### Technical Note
 This paper was typeset in LaTeX. The modular source code (using a main.tex and separate chapter files) can be found in the /src directory
+
+### Acknowledgments
+This research was developed under the guidance of Anders Hedman during the 'Artificial Intelligence in Society' course at KTH. We are grateful for their insights and feedback on the intersection of Ethical perspectives, Super-intelligence and Apocalyptic AI. 
